@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-    console.log("3 ========>",req);
     res.send(req.requestTime)
 })
 
